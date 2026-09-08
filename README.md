@@ -21,8 +21,9 @@ The adversarial battery runs in under a minute on your machine, and in CI on eve
 python3 hooks/bash-approver.py --selftest
 ```
 
-85 cases, zero wrong-allow. The README also lists the bypasses still open and the one false
-positive I have not fixed: it blocks a `dd` that only reads. A guard tightened this far will
+109 cases, zero wrong-allow. The README also lists the bypasses still open, and the ones two
+adversarial reviews closed. One of those reviews found nine wrong-allows in the classifier, three
+of which ran arbitrary code, which is why the case count moved. A guard tightened this far will
 over-block sometimes, and you should know which way it fails before you install it.
 
 ### What I run it on
