@@ -27,9 +27,10 @@ over-block sometimes, and you should know which way it fails before you install 
 
 ### What I run it on
 
-A homelab I operate as production: three hypervisors carrying 38 VMs and containers, 34 of them
-running today, and 17 MCP servers split by blast radius so no server can read another's secrets.
-Self-hosted inference for work that cannot leave the perimeter, and a multi-model evaluation
+A homelab I operate as production: three hypervisors carrying 38 VMs and containers (34 running,
+counted 2026-09-07), and 17 MCP servers split by blast radius so no server can read another's
+secrets. The count is dated because it moves; `andreybuilt.ai` carries its own figure with its own
+date, and neither is wrong. Self-hosted inference for work that cannot leave the perimeter, and a multi-model evaluation
 cascade I run daily. The hooks exist because I kept finding new ways for an agent to hurt that
 fleet.
 
