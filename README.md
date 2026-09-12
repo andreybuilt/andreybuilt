@@ -14,7 +14,7 @@ by the shape of the command:
 A permission rule matches a prefix. It cannot express "`find`, but only when it carries `-delete`."
 So I stopped writing rules and started writing hooks that read the command and refuse it.
 
-**[agent-guardrails](https://github.com/andreybuilt/agent-guardrails)** is six of them, MIT.
+**[AB.Agentic Runtime Guardrails](https://github.com/andreybuilt/agent-guardrails)** is six of them, MIT.
 The adversarial battery runs in under a minute on your machine, and in CI on every push:
 
 ```
